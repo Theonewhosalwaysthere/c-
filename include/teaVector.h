@@ -3,9 +3,10 @@
 #define TEA_VECTOR_H
 #endif
 
+// floats
+
 typedef struct {
     float x, y;
-
 } teaVector2f;
 
 typedef struct {
@@ -15,6 +16,8 @@ typedef struct {
 typedef struct {
     float x, y, z, w;
 } teaVector4f;
+
+// ints
 
 typedef struct {
     int x, y;
@@ -26,4 +29,7 @@ typedef struct {
 
 typedef struct {
     int x, y, z, w;
-} teaVector4ii;
+} teaVector4i;
+
+// 8bit / chars
+
