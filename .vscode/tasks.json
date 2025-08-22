@@ -7,7 +7,15 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+
+                "-I",
+                "../include",
+                "-I",
+                "../src",
+
+                "../src/main.cpp",
+                "../src/teaImages.cpp",
+                "../src/teaMath.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
