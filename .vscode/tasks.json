@@ -14,8 +14,8 @@
                 "../src",
 
                 "../src/main.cpp",
-                "../src/teaImages.cpp",
                 "../src/teaMath.cpp",
+                "../src/lodepng.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
